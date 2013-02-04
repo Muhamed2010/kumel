@@ -5,9 +5,9 @@ class Kota extends CI_Model{
 			FROM locations l
 			LEFT JOIN states s ON s.id = l.state_id
 			INNER JOIN countries c ON c.id = l.country_id
-			WHERE (l.name = 'indonesia'
-			OR c.name = 'indonesia'
-			OR s.name = 'indonesia')
+			WHERE (l.name = ''
+			OR c.name = ''
+			OR s.name = '')
 			AND CONCAT(l.name ,c.name ) LIKE '%$q%'
 			LIMIT 10");
 		$ret = array();
@@ -25,11 +25,7 @@ class Kota extends CI_Model{
 		if($row->a!=''){
 			$label .= $row->a;
 		}
-	/*	if($row->b!=''){	
-			if($label!='')
-				$label .= ' , ';
-			$label .= $row->b;
-		}*/
+
 		if($row->c!=''){
 			if($label!='')
 				$label .= ' , ';
