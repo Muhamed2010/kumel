@@ -49,10 +49,10 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
+$db['default']['username'] = 'vanbungkring';
 $db['default']['port']='3306';
 $db['default']['password'] = 'merdeka123';
-$db['default']['database'] = 'vanbungkring';
+$db['default']['database'] = 'tripify';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
