@@ -1,10 +1,10 @@
 ///patterns
 .rounded-corners (@radius: 3px) {
-	-webkit-border-radius: @radius;
-	-moz-border-radius: @radius;
-	-ms-border-radius: @radius;
-	-o-border-radius: @radius;
-	border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
 }
 .border-radius-custom (@topleft: 5px, @topright: 5px, @bottomleft: 5px, @bottomright: 5px) {
     -webkit-border-radius: @topleft @topright @bottomright @bottomleft;
@@ -22,9 +22,9 @@
 }
 
 .box-shadow (@x: 0, @y: 0, @blur: 1px, @color: #000) {
-	box-shadow: @arguments;
-	-moz-box-shadow: @arguments;
-	-webkit-box-shadow: @arguments;
+    box-shadow: @arguments;
+    -moz-box-shadow: @arguments;
+    -webkit-box-shadow: @arguments;
 }
 html {
     background: #efefef;
@@ -94,11 +94,23 @@ background: none;
 .searchbox-landing{
 
     margin: 0 auto;
-    background: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #9F9F9F;
     min-height: 45px;
     padding: 5px;
-    .rounded-corners(0px);
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 0 #FFFFFF inset, -1px -1px 0 #FFFFFF inset, 0 1px 1px #EEEEEE;
+    background-image: -moz-linear-gradient(center top , #FEFEFE 10%, #F0F0F0 90%);
+     /* Safari 4-5, Chrome 1-9 */
+      background-image: -webkit-gradient(linear, 0% 10%, 0% 90%, from(#FEFEFE), to(#F0F0F0));
+       /* Safari 5.1, Chrome 10+ */
+        background-image: -webkit-linear-gradient(center top , #FEFEFE 10%, #F0F0F0 90%); 
+        /* Firefox 3.6+ */
+        /* IE 10 */ 
+        background-image: -ms-linear-gradient(top, #2F2727, #1a82f7);
+         /* Opera 11.10+ */ 
+        background-image: -o-linear-gradient(top, #2F2727, #1a82f7);
+  
+    .rounded-corners(3px);
 
     .place{
         margin-top: 2px;
@@ -108,10 +120,12 @@ background: none;
          margin-left: 5px;
         input[type="text"]{
             width: 460px;
-            .rounded-corners(0px);
+            .rounded-corners(3px);
             font-family: 'Roboto',Arial;
-     
+            box-shadow: 0 1px 0 #FFFFFF, 1px 1px 1px rgba(204, 204, 204, 0.5) inset, -1px 1px 1px rgba(204, 204, 204, 0.5) inset;
+    color: #555555;
             padding:10px;
+          border: 1px solid #9F9F9F;
             font-weight: lighter;
             font-size: 18px;
             box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4) inset;
@@ -119,6 +133,11 @@ background: none;
         }
         input[type="text"]:focus{
              border:1px solid #4E8506;
+
+        }
+        input[type="text"]:hover{
+            background: #fff;
+            border:1px solid #4E8506;
 
         }
     }
@@ -130,7 +149,11 @@ background: none;
         float: left;
         input[type="text"]{
             width: 470px;
-            .rounded-corners(0px);
+             border: 1px solid #9F9F9F;
+            .rounded-corners(3px);
+            font-family: 'Roboto',Arial;
+            box-shadow: 0 1px 0 #FFFFFF, 1px 1px 1px rgba(204, 204, 204, 0.5) inset, -1px 1px 1px rgba(204, 204, 204, 0.5) inset;
+    color: #555555;
             font-family: 'Roboto',Arial;
             padding:10px;
             font-weight: lighter;
@@ -139,6 +162,11 @@ background: none;
 
         }
          input[type="text"]:focus{
+            border:1px solid #4E8506;
+
+        }
+         input[type="text"]:hover{
+            background: #fff;
             border:1px solid #4E8506;
 
         }
