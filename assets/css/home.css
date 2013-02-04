@@ -20,6 +20,7 @@ body {
 }
 .menu {
   background: #fff;
+  position: relative;
   border-top: 2px solid #4E8506;
 }
 .landing {
