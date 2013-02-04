@@ -188,18 +188,27 @@ body {
 }
 .curtain .package img {
   width: 372px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
 }
 .box {
   float: left;
   margin: 5px;
   width: 330px;
   max-height: 476px;
-  background: #000;
 }
 .box img {
   max-height: 476px;
   width: 330px;
   z-index: 99;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
 }
 .medium-tag {
   position: absolute;
@@ -333,10 +342,14 @@ body {
   margin: 5px;
   width: 476px;
   height: 476px;
-  background: #000;
 }
 .box:first-child img {
   width: 476px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
 }
 .box:last-child {
   float: left;
@@ -347,6 +360,9 @@ body {
 }
 .box:last-child img {
   height: 245px;
+}
+.box:hover {
+  cursor: pointer;
 }
 .things-todo {
   width: 100%;

@@ -225,6 +225,7 @@ background: none;
         margin-bottom: 18px;
         img{
             width: 372px;
+            .rounded-corners(3px);
         }
     }
 
@@ -235,11 +236,11 @@ background: none;
     margin: 5px;
     width:330px;
     max-height: 476px;
-    background: #000;
     img{
         max-height: 476px;
         width:330px;
         z-index: 99;
+        .rounded-corners(3px);
     }
 
     
@@ -391,10 +392,10 @@ background: none;
  margin: 5px;
  width:476px;
  height: 476px;
- background: #000;
-
+   
  img{
    width:476px;
+   .rounded-corners(3px);
   
 }
 //     height: 560px;
@@ -412,7 +413,9 @@ background: none;
 //     height: 560px;
 
 }
-
+.box:hover{
+    cursor: pointer;
+}
 
 .things-todo{
     width: 100%;
