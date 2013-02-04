@@ -93,7 +93,7 @@
 .ui-state-hover a, .ui-state-hover a:hover { color: #313131; text-decoration: none; }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { 
 	outline: none;
-	color: #1c4257; border: 1px solid #7096ab;
+	color: #1c4257;
 	background: #ededed url(images/bg_fallback.png) 0 -50px repeat-x; /* Old browsers */
 		background: -moz-linear-gradient(top, #b9e0f5 0%, #92bdd6 100%); /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b9e0f5), color-stop(100%,#92bdd6)); /* Chrome,Safari4+ */
