@@ -1,0 +1,410 @@
+///patterns
+.rounded-corners (@radius: 3px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	-o-border-radius: @radius;
+	border-radius: @radius;
+}
+.border-radius-custom (@topleft: 5px, @topright: 5px, @bottomleft: 5px, @bottomright: 5px) {
+    -webkit-border-radius: @topleft @topright @bottomright @bottomleft;
+    -moz-border-radius: @topleft @topright @bottomright @bottomleft;
+    border-radius: @topleft @topright @bottomright @bottomleft;
+}
+@base: #663333;
+.gradient (@origin: top, @start: #ffffff, @stop: #000000) {
+    background-color: @start;
+    background-image: -webkit-linear-gradient(@origin, @start, @stop);
+    background-image: -moz-linear-gradient(@origin, @start, @stop);
+    background-image: -o-linear-gradient(@origin, @start, @stop);
+    background-image: -ms-linear-gradient(@origin, @start, @stop);
+    background-image: linear-gradient(@origin, @start, @stop);
+}
+
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @color: #000) {
+	box-shadow: @arguments;
+	-moz-box-shadow: @arguments;
+	-webkit-box-shadow: @arguments;
+}
+html {
+    background: #efefef;
+    /*
+    background: url('http://cdn.hdwallpaperspics.com/uploads/2012/12/Sailboats_at_sunset_art_wallpaper.jpg') no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   */
+}
+body{
+background: none;
+   top:0;
+
+   font-family: "Helvetica Neue",sans-serif;
+}
+.menu{
+    background: #fff;
+    border-top: 2px solid #4E8506;
+}
+.landing{
+    padding-top:50px;
+    .top-tag{
+        width: 960px;
+        margin:0 auto;
+        h2{
+            text-align: center;
+            font-weight:normal;
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: #666;
+            font-weight: 200;
+            line-height: normal;
+            margin-bottom: 10px;
+            position: relative;
+           // text-shadow: 0 1px 3px black;
+            font-family: 'Roboto',Arial;
+
+        }
+        h1{
+            text-align: center ;
+
+            -moz-font-feature-settings: normal;
+            -moz-font-language-override: normal;
+            -x-system-font: none;
+            color: #222;
+
+            
+            font-size: 60px;
+            font-size-adjust: none;
+            font-stretch: normal;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 200;
+            line-height: normal;
+            margin-bottom: 10px;
+            position: relative;
+           // text-shadow: 0 1px 3px black;
+        }
+    }
+}
+.searchbox-landing{
+
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    min-height: 45px;
+    padding: 5px;
+    .rounded-corners(0px);
+
+    .place{
+        margin-top: 2px;
+        overflow: hidden;
+        width:495px;
+        float: left;
+         margin-left: 5px;
+        input[type="text"]{
+            width: 460px;
+            .rounded-corners(0px);
+            font-family: 'Roboto',Arial;
+     
+            padding:10px;
+            font-weight: lighter;
+            font-size: 18px;
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4) inset;
+
+        }
+        input[type="text"]:focus{
+             border:1px solid #4E8506;
+
+        }
+    }
+    .activity{
+        margin-top: 2px;
+        overflow: hidden;
+        width:495px;
+
+        float: left;
+        input[type="text"]{
+            width: 470px;
+            .rounded-corners(0px);
+            font-family: 'Roboto',Arial;
+            padding:10px;
+            font-weight: lighter;
+            font-size: 18px;
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4) inset;
+
+        }
+         input[type="text"]:focus{
+            border:1px solid #4E8506;
+
+        }
+    }
+    .search{
+      margin-top: 2px;
+      overflow: hidden;
+      width:155px;
+
+      height: 50px;
+      float: left;
+      .btn{
+       padding-top: 10px;
+       padding-bottom: 10px;
+       font-family: 'Roboto',Arial;
+       font-size: 18px;
+
+
+
+   }
+}
+
+}
+.mosaic{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+
+
+}
+.newest{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px dashed #ccc;
+    float: left;
+    margin-top: 30px;
+    h1{
+        text-align: center;
+        font-family: 'Roboto',Helvetica;
+        font-color:#ccc;
+        font-size: 25px;
+        font-weight: normal
+    }
+
+}
+.curtain{
+    width: 100%;
+    padding-top: 18px;
+    float: left;
+    margin-left: 10px;
+    .package{
+        width: 372px;
+        float: left;
+
+        margin-right: 18px;
+        margin-bottom: 18px;
+        img{
+            width: 372px;
+        }
+    }
+
+}
+
+.box{
+    float: left;
+    margin: 5px;
+    width:330px;
+    max-height: 476px;
+    background: #000;
+    img{
+        max-height: 476px;
+        width:330px;
+        z-index: 99;
+    }
+
+    
+}
+.medium-tag{
+  position: absolute;
+    padding: 10px;
+    width: 230px;
+    background: #000;
+    z-index: 1;
+    opacity: 0.8;
+    margin-left: 0px;
+    margin-top: 320px;
+    border: 1px solid #222;
+    h1{
+        color: #fff;
+        line-height: 26px;
+        font-family: 'Roboto',Helvetica;
+        font-weight: normal;
+        font-size: 26px;
+    }
+    .tagline{
+        font-size: 15px;
+        font-family: 'Roboto';
+        color: #fff;
+
+    }
+
+
+}
+.simple-tag{
+  position: absolute;
+    padding: 10px;
+    width: 170px;
+    background: #000;
+    z-index: 1;
+    opacity: 0.8;
+    margin-left: 0px;
+    margin-top: 120px;
+    border: 1px solid #222;
+    h1{
+        color: #fff;
+        line-height: 18px;
+        font-family: 'Roboto',Helvetica;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .tagline{
+        font-size: 12px;
+        font-family: 'Roboto';
+        color: #fff;
+
+    }
+
+
+}
+.last-tag{
+  position: absolute;
+    padding: 10px;
+    width: 200px;
+    background: #000;
+    z-index: 1;
+    opacity: 0.8;
+    margin-left: 0px;
+    margin-top: 120px;
+    border: 1px solid #222;
+    h1{
+        color: #fff;
+        line-height: 24px;
+        font-family: 'Roboto',Helvetica;
+        font-weight: normal;
+        font-size: 22px;
+    }
+    .tagline{
+        font-size: 12px;
+        font-family: 'Roboto';
+        color: #fff;
+
+    }
+
+
+}
+.big-tag{
+    position: absolute;
+    padding: 10px;
+    width: 330px;
+    background: #000;
+    z-index: 1;
+    opacity: 0.8;
+    margin-left: 0px;
+    margin-top: 20px;
+    border: 1px solid #222;
+    h1{
+        color: #fff;
+        line-height: 26px;
+        font-family: 'Roboto',Helvetica;
+        font-weight: normal;
+        font-size: 26px;
+    }
+    .tagline{
+        font-size: 15px;
+        font-family: 'Roboto';
+        color: #fff;
+
+    }
+
+}
+.super-user{
+    display: none;
+    float: right;
+    position: absolute;
+    padding: 10px;
+    width: 230px;
+    background: #000;
+    z-index: 1;
+ 
+    margin-left: 225px;
+    margin-top: 395px;
+    border: 1px solid #222;
+    .sell {
+        color: #fff;
+        float: left;
+        width: 180px;
+    }
+    
+
+}
+.avatar{
+        width: 70px;
+        height: 70px;
+        float: left;
+        border: 5px;
+        margin-left: -10px;
+        margin-top: -10px;
+        opacity: 1;
+        background: #fff;
+        position: absolute;
+        right: 0;
+        margin-top: -5px;
+        margin-right: 3px;
+        img{
+        width: 70px;
+        opacity: 1;
+        
+        }
+        }
+.box:first-child{
+ float: left;
+ margin: 5px;
+ width:476px;
+ height: 476px;
+ background: #000;
+
+ img{
+   width:476px;
+  
+}
+//     height: 560px;
+
+}
+.box:last-child{
+ float: left;
+ margin: 5px;
+ width:330px;
+ height: 220px;
+ background: #000;
+ img{
+     height: 245px;
+ }
+//     height: 560px;
+
+}
+
+.corner{
+    width: 630px;
+
+}
+.things-todo{
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+line-height: 30px;
+    font-family: "Roboto";
+   
+}
+ .things-todo a{
+        color: #4E8506;
+    }
+.footesr{
+    width: 100%;
+    border-top: 1px solid #ff6600;
+    height: 100px;
+
+}

@@ -13,7 +13,56 @@
 			minLength: 2,
 		});
 	});
-	</script>
-	
-	
-	<input id="city">
+</script>
+
+<div class="top-tag">
+    <h1>Travel <strong>More</strong> with Tripify!</h1>
+    <h2>a Million Place to visit on 17872 travel Package</h2>
+</div>
+<div class="searchbox-landing">
+	<div class="activity"> 
+		<input type="text" placeholder="Activity" >
+	</div>
+	<div class="place"> 
+		<input type="text" id="city" placeholder="Cari Lokasi Yang anda Inginken" >
+	</div>
+
+	<div class="search">
+		<button class="btn btn-success" type="button">Cari Liburanmu!</button>
+	</div>
+
+</div>
+<div class="mosaic">
+	<div class="box">
+		<div class="big-tag">
+			<h1>Siem Reap, Thailand</h1>
+			<div class="tagline">5 Thing you never knew about Lord Howe Island</div>
+		</div>
+		<img src="http://images1.tropicalsky.co.uk/images/hotels/alt2/RESIZE2(21).jpg">
+	</div>
+	<div class="box">
+		<div class="medium-tag">
+			<h1>Tokyo, Japan</h1>
+			<div class="tagline">its Cool!</div>
+		</div>
+	<img src="http://d18krzy3dutnlo.cloudfront.net/mosaic_items/photos/8-1355391148/vertical.jpg">
+
+	</div>
+	<div class="box">
+	<div class="simple-tag">
+		<h1>Tanjung Papuma, Jember</h1>
+		<div class="tagline">Best white sand beach</div>
+	</div>
+
+	<img src="http://2.bp.blogspot.com/-mUnEYKzzjHk/TjD_T4zIAyI/AAAAAAAAASY/K7_hOW6Oel4/s1600/papuma9.jpg"></div>
+	<div class="box">
+		<div class="last-tag">
+			<h1>Losari, Makassar</h1>
+			<div class="tagline">East Side of Indonesia</div>
+		</div>
+		<img src="http://www.haltthesalt.org.au/images_aerial/wka_073_gulf6.jpg">
+	</div>
+</div>
+
+
+<div class="things-todo">Yuk! Traveling ke <a href="#">Jakarta</a>, <a href="#">Surabaya</a>, <a href="#">Malang</a>, <a href="#">Pulau sempu</a>, <a href="#">Batu</a>, <a href="#">Makassar</a>, <a href="#">Wakatobi</a>, <a href="#">Phuket</a>, <a href="#">Derawan</a>, <a href="#">Blitar</a>, <a href="#">Semarang</a>, <a href="#">Jogjakarta</a>, <a href="#">Mentawai</a> <a href="#">Maladewa</a>,<a href="#">Sukabumi</a>,<a href="#">Bali</a>,<a href="#">Lombok</a> dan 500+ tempat Lainnya.</div>
