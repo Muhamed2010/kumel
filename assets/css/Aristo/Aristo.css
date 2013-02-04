@@ -385,7 +385,7 @@
  * http://docs.jquery.com/UI/Autocomplete#theming
  */
  .ui-autocomplete {
- 	background: #ccc;
+
  	border: none;
  	position: absolute; cursor: default; z-index: 3;
  	-moz-border-radius: 0; 
@@ -395,7 +395,9 @@
  	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
  	box-shadow: 0 1px 5px rgba(0,0,0,0.3);
  }	
-
+ .ui-autocomplete:hover{
+ 	border: none;
+ }
  /* workarounds */
  * html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
 
