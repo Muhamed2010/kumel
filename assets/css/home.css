@@ -106,6 +106,9 @@ body {
   font-size: 18px;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4) inset;
 }
+.searchbox-landing .place input[type="text"]:focus {
+  border: 1px solid #4E8506;
+}
 .searchbox-landing .place input[type="text"]:hover {
   background: #fff;
   border: 1px solid #4E8506;
@@ -131,6 +134,9 @@ body {
   font-weight: lighter;
   font-size: 18px;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4) inset;
+}
+.searchbox-landing .activity input[type="text"]:focus {
+  border: 1px solid #4E8506;
 }
 .searchbox-landing .activity input[type="text"]:hover {
   background: #fff;
@@ -341,9 +347,6 @@ body {
 }
 .box:last-child img {
   height: 245px;
-}
-.corner {
-  width: 630px;
 }
 .things-todo {
   width: 100%;
