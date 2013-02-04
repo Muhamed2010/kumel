@@ -48,8 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'http://110.5.109.171';
+$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
+$db['default']['port']='3306';
 $db['default']['password'] = 'merdeka123';
 $db['default']['database'] = 'vanbungkring';
 $db['default']['dbdriver'] = 'mysql';
