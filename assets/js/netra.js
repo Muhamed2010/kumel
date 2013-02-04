@@ -12,6 +12,10 @@ $container.imagesLoaded( function(){
   });
 });
 
+
+
+});
+$(function() {
     $( "#city" ).autocomplete({
       source: function( request, response ) {
         $.ajax({ 
@@ -24,9 +28,7 @@ $container.imagesLoaded( function(){
       },
       minLength: 2,
     });
-
-});
-
+  });
 
 ///////////////--------------------------------------------->drop down
 
