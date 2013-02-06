@@ -3,7 +3,7 @@
 		$( "#city" ).autocomplete({
 			source: function( request, response ) {
 				$.ajax({ 
-					url: "<?php echo base_url(); ?>index.php/main/kota",
+					url: "http://www.tripify.me/traveloud/kumel/index.php/main/kota",
 					data: { "q": request.term },
 					success: function(data) { 
 						response(data); 
@@ -43,7 +43,7 @@
 	<div class="box">
 		<div class="medium-tag">
 			<h1>Tokyo, Japan</h1>
-			<div class="tagline">its Cool!</div>
+			<div class="tagline">Welcome to Japan!!!</div>
 		</div>
 	<img src="http://d18krzy3dutnlo.cloudfront.net/mosaic_items/photos/8-1355391148/vertical.jpg">
 
