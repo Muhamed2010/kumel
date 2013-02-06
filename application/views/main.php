@@ -3,7 +3,7 @@
 		$( "#city" ).autocomplete({
 			source: function( request, response ) {
 				$.ajax({ 
-					url: "http://www.tripify.me/traveloud/kumel/index.php/main/kota",
+					url: "<?php echo base_url() ?>/index.php/main/kota",
 					data: { "q": request.term },
 					success: function(data) { 
 						response(data); 
