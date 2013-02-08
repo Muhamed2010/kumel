@@ -40,7 +40,7 @@
 	</div>
 
 	<div class="search">
-		<button class="btn btn-success" type="button">Cari Liburanmu!</button>
+		<button class="cupid-green" type="button">Cari Liburanmu!</button>
 	</div>
 
 </div>
