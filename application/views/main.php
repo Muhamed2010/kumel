@@ -12,6 +12,18 @@
 			},
 			minLength: 2,
 		});
+		$( "#act" ).autocomplete({
+			source: function( request, response ) {
+				$.ajax({ 
+					url: "<?php echo base_url() ?>/index.php/main/act",
+					data: { "q": request.term },
+					success: function(data) { 
+						response(data); 
+					}
+				});
+			},
+			minLength: 2,
+		});
 	});
 </script>
 
@@ -21,7 +33,7 @@
 </div>
 <div class="searchbox-landing">
 	<div class="activity"> 
-		<input type="text" placeholder="Activity" >
+		<input type="text" id="act" placeholder="Activity" >
 	</div>
 	<div class="place"> 
 		<input type="text" id="city" placeholder="Cari Lokasi Yang anda Inginken" >
