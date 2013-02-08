@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://tripify.me/kumel/';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------
