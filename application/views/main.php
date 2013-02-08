@@ -33,12 +33,12 @@
 </div>
 <div class="searchbox-landing">
 	<div class="place"> 
-		<input type="text" id="city" placeholder="Cari Lokasi Yang anda Inginken" >
+		<input type="text" id="city" placeholder="Anda ingin liburan ke... bandung? jakarta?" >
 	</div>
 	<div class="activity"> 
 		<input type="text" id="act" placeholder="Activity" >
 	</div>
-	
+
 	<div class="search">
 		<button class="btn btn-success" type="button">Cari Liburanmu!</button>
 	</div>
