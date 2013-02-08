@@ -17,7 +17,7 @@
 
 <div class="top-tag">
     <h1>Travel <strong>More</strong> then sell it!</h1>
-    <h2>a Million Place to visit on 17872 travel Package</h2>
+    <h2>a Million Place to visit on millions travel Package</h2>
 </div>
 <div class="searchbox-landing">
 	<div class="activity"> 
