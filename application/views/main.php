@@ -36,7 +36,7 @@
 		<input type="text" id="city" placeholder="Anda ingin liburan ke... bandung? jakarta?" >
 	</div>
 	<div class="activity"> 
-		<input type="text" id="act" placeholder="Activity" >
+		<input type="text" id="act" placeholder="Anda ingin Hiking? Tracking? Rafting? Belanja?"  >
 	</div>
 
 	<div class="search">
