@@ -450,65 +450,78 @@ body{
 	background-color: #4E8506;
 	color: #FFFFFF;
 }
-.reveal-modal-bg { 
-	position: fixed; 
-	height: 100%;
-	width: 100%;
-	background: #000;
-	background: rgba(0,0,0,.8);
-	z-index: 100;
-	display: none;
-	top: 0;
-	left: 0; 
+.boox{
+	margin-bottom: 30px;
+	border: 1px solid #ddd;
+	width: 268px;
+	background: #ccc;
+	margin-left: 0;
+	margin-right: 30px;
+	-webkit-box-shadow: 0 1px 3px #424641;
+	-moz-box-shadow: 0 1px 3px #424641;
+	box-shadow: 0 1px 3px #424641;
+
+	img{
+	width: 268px;
+	
+	}
+	.tag-currency{
+			position: absolute;
+			padding: 4px 10px;
+			background: #69B00B;
+			box-shadow: 1px 1px 1px #7CBC14 inset, -1px 1px 1px #7CBC14 inset, 0 0 6px rgba(0, 0, 0, 0.5);
+			float: right;
+			color: #fff;
+			margin-left: 5px;
+			margin-top: 5px;
+			max-width: 200px;
+			font-size: 17px;
+
+		}
+		.tag-currency:hover{
+			background: #77c80d;
+		}
+	.banner{
+		display: block;
+		background: #FFFFFF;
+		padding: 10px 0;
+		display: block;
+		min-height: 20px;
+		overflow: hidden;
+		float: left;
+		width: 100%;
+		.tag-title{
+			width: 90%;
+			float: left;
+			margin-left: 5px;
+			font-weight: bold;
+			color: #222;
+			line-height: 18px;
+			font-family: "Roboto";
+			font-size: 16px;			
+		}
+		.tag-location{
+			width: 100%;
+			float: left;
+			margin-left: 5px;
+			font-size: 14px;
+			color: #666;		
+		}
+
+	}
 }
-
-.reveal-modal {
-	visibility: hidden;
-	top: 100px; 
-	left: 50%;
-	margin-left: -300px;
-	width: 520px;
-	background: #eee url(modal-gloss.png) no-repeat -200px -80px;
-	position: absolute;
-	z-index: 101;
-	padding: 30px 40px 34px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	-box-shadow: 0 0 10px rgba(0,0,0,.4);
-}
-
-.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
-.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
-.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
-.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
-
-.reveal-modal .close-reveal-modal {
-	font-size: 22px;
-	line-height: .5;
-	position: absolute;
-	top: 8px;
-	right: 11px;
-	color: #aaa;
-	text-shadow: 0 -1px 1px rbga(0,0,0,.6);
-	font-weight: bold;
+.boox:hover{
 	cursor: pointer;
-} 
-	/*
-		
-	NOTES
-	
-	Close button entity is &#215;
-	
-	Example markup
-	
-	<div id="myModal" class="reveal-modal">
-		<h2>Awesome. I have it.</h2>
-		<p class="lead">Your couch.  I it's mine.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
-		<a class="close-reveal-modal">&#215;</a>
-	</div>
-	
-	*/
+	border: 1px solid #4E8506;
+	-webkit-box-shadow: 0px 0px 12px #4E8506;
+	-moz-box-shadow: 0px 0px 12px #4E8506;
+	box-shadow: 0px 0px 12px #4E8506;
+	.tag-title{
+		color: #4E8506;
+	}
+
+}
+.deals{
+width: 1200px;
+margin-top: 50px;
+}
