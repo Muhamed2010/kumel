@@ -3,7 +3,9 @@ class Main extends MY_Controller
 {
     public function index()
     {
+    	$this->render('common/header');
         $this->render('main');
+        $this->render('common/footer');
     }
     public function kota(){
 		header("Content-Type:application/json");

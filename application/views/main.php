@@ -1,3 +1,5 @@
+
+    <div class="container landing">
 <script>
 	$(function() {
 		$( "#city" ).autocomplete({
@@ -78,3 +80,5 @@
 
 
 <div class="things-todo">Yuk! Traveling ke <a href="#">Jakarta</a>, <a href="#">Surabaya</a>, <a href="#">Malang</a>, <a href="#">Pulau sempu</a>, <a href="#">Batu</a>, <a href="#">Makassar</a>, <a href="#">Wakatobi</a>, <a href="#">Phuket</a>, <a href="#">Derawan</a>, <a href="#">Blitar</a>, <a href="#">Semarang</a>, <a href="#">Jogjakarta</a>, <a href="#">Mentawai</a> <a href="#">Maladewa</a>,<a href="#">Sukabumi</a>,<a href="#">Bali</a>,<a href="#">Lombok</a> dan 500+ tempat Lainnya.</div>
+
+    </div>
