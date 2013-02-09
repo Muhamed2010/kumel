@@ -10,7 +10,7 @@
     print'<div class="boox">';
     if(!$item['price']['formatted']){
 
-      print'<div class="tag-currency">Call</div>';
+      print'<div class="tag-currency">Enquiry</div>';
     }
     else{
       print'<div class="tag-currency">'.$item['price']['formatted'];
