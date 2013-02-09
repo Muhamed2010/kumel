@@ -1,7 +1,7 @@
 <div class="container deals">
   <?php
 
-  $url = 'http://deals.wego.com/api.js?market=id&page=1&per_page=1200&location_id=67';
+  $url = 'http://deals.wego.com/api.js?market=id&page=1&per_page=10&location_id=67';
   $content = file_get_contents($url);
   $json = json_decode($content, true);
 
