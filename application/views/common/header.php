@@ -8,7 +8,7 @@
   <meta name="author" content="">
 
   <!-- Le styles -->
-  <link href="<?php echo base_url(); ?>assets/css/bootstrap.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/common.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/home.css" rel="stylesheet">
 
