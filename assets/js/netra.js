@@ -18,8 +18,9 @@ $containers.imagesLoaded( function(){
   isAnimated: true
   });
 });
-
-
+$("img.lazy").lazyload({ 
+    effect : "fadeIn"
+});
 });
 
 

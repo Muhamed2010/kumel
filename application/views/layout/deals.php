@@ -22,7 +22,7 @@
 
     }
     else{
-      print '<img src="' . $item['image']['original'] . '" border="0" alt="" />';
+      print '<img class="lazy" src="' . $item['image']['original'] . '" border="0" alt="" />';
     }
     print '<div class="banner">';
     print'<div class="tag-title">"'.$item['headline'].'"</div>';
@@ -32,6 +32,8 @@
     print '</div>';
     print '</a>';
 
-  }
-  ?>
+  } ?>
+
+  
+ 
 </div>
