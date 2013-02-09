@@ -11,7 +11,6 @@
   <link href="<?php echo base_url(); ?>assets/css/bootstrap.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/common.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/home.css" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>assets/css/footer.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/button.css" rel="stylesheet">
 
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
