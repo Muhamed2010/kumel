@@ -3,7 +3,7 @@
 		$( "#city" ).autocomplete({
 			source: function( request, response ) {
 				$.ajax({ 
-					url: "<?php echo base_url() ?>/index.php/main/kota",
+					url: "<?php echo base_url() ?>index.php/main/kota",
 					data: { "q": request.term },
 					success: function(data) { 
 						response(data); 
@@ -15,7 +15,7 @@
 		$( "#act" ).autocomplete({
 			source: function( request, response ) {
 				$.ajax({ 
-					url: "<?php echo base_url() ?>/index.php/main/act",
+					url: "<?php echo base_url() ?>index.php/main/act",
 					data: { "q": request.term },
 					success: function(data) { 
 						response(data); 
@@ -24,6 +24,7 @@
 			},
 			minLength: 2,
 		});
+	
 	});
 </script>
 
@@ -31,18 +32,19 @@
     <h1>Travel <strong>More</strong> then sell it!</h1>
     <h2>a Million Place to visit on millions travel Package</h2>
 </div>
-<div class="searchbox-landing">
+<div class="searchbox-landing" id="search">
+<form action="<?php echo base_url() ?>index.php/search" method="GET">
 	<div class="activity"> 
-		<input type="text" id="act" placeholder="Activity" >
+		<input type="text" id="act" placeholder="Activity" name="act" >
 	</div>
 	<div class="place"> 
-		<input type="text" id="city" placeholder="Cari Lokasi Yang anda Inginken" >
+		<input type="text" id="city" placeholder="Cari Lokasi Yang anda Inginken" name="city" >
 	</div>
 
 	<div class="search">
-		<button class="btn btn-success" type="button">Cari Liburanmu!</button>
+		<button class="btn btn-success" id="btnSearch" type="submit">Cari Liburanmu!</button>
 	</div>
-
+</form>
 </div>
 <div class="mosaic">
 	<div class="box">
