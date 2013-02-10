@@ -1,23 +1,32 @@
-
 <div class="container deals">
   <?php
 
-  $url = 'https://api.roomorama.com/v1.0/rooms.json?destination_id=1&limit=1';
+  $url = 'http://deals.wego.com/api.js?market=id&page=1&per_page=50&location_id=67';
   $content = file_get_contents($url);
   $json = json_decode($content, true);
 
-  foreach($json['result'] as $item) {
-    print '<a href="'.$item['url'].'" title="'.$item['title'].'"target=_blank>';
+  foreach($json['deals'] as $item) {
+    print '<a href="'.$item['url'].'" title="'.$item['headline'].'"target=_blank>';
     print'<div class="boox">';
+    if(!$item['price']['formatted']){
 
-    print'<div class="tag-currency">'.$item['price'];
-    print'</div>';
+      print'<div class="tag-currency">Enquiry</div>';
+    }
+    else{
+      print'<div class="tag-currency">'.$item['price']['formatted'];
+      print'</div>';
+    }
 
+    
+    if(!$item['image']['original']){
 
-    print '<img class="lazy" src="' . $item['thumbnail'] . '" border="0" alt="" />';
+    }
+    else{
+      print '<img class="lazy" src="' . $item['image']['original'] . '" border="0" alt="" />';
+    }
     print '<div class="banner">';
-    print'<div class="tag-title">"'.$item['title'].'"</div>';
-    print'<div class="tag-location">"'.$item['city'].'"</div>';
+    print'<div class="tag-title">"'.$item['headline'].'"</div>';
+     print'<div class="tag-location">"'.$item['location'].'"</div>';
     print'</div>';
 
     print '</div>';
@@ -26,5 +35,5 @@
   } ?>
 
   
-
+ 
 </div>
