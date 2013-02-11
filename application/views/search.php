@@ -1,11 +1,13 @@
 <div class="container result">
-	<div class="result-list">
+	
 		<?php foreach($objeks as $objek): ?>
-		<div >
-			<h1><?php echo $objek->post_title?></h1>
-			<div><?php echo $objek->post_content?></div>
-			<div><?php echo $objek->total_day?></div>
+		<div class="boox">
+			<div class="right-block">
+				<img src="http://www.photoshelter.com/img-get/I0000qlJ1FH_YGsw/s/590/392/North-Maluku-104.jpg">
+				<div><?php echo $objek->post_excerpt?></div>
+				<div><?php echo $objek->total_day?></div>
+			</div>
 		</div>
 	<?php endforeach; ?>
-</div>
+
 </div>

@@ -2,7 +2,7 @@
 ////custom function there
 $(document).ready(function() {
 
- var $container = $('.result-main');
+ var $container = $('.result');
 
 $container.imagesLoaded( function(){
   $container.masonry({
