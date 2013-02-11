@@ -63,14 +63,14 @@
 			<h1>Siem Reap, Thailand</h1>
 			<div class="tagline">5 Thing you never knew about Lord Howe Island</div>
 		</div>
-		<img src="http://images1.tropicalsky.co.uk/images/hotels/alt2/RESIZE2(21).jpg">
+		<img class="lazy" src=""data-original="http://images1.tropicalsky.co.uk/images/hotels/alt2/RESIZE2(21).jpg">
 	</div>
 	<div class="box">
 		<div class="medium-tag">
 			<h1>Tokyo, Japan</h1>
 			<div class="tagline">Welcome to Japan!!!</div>
 		</div>
-	<img src="http://d18krzy3dutnlo.cloudfront.net/mosaic_items/photos/8-1355391148/vertical.jpg">
+	<img class="lazy" src=""data-original="http://d18krzy3dutnlo.cloudfront.net/mosaic_items/photos/8-1355391148/vertical.jpg">
 
 	</div>
 	<div class="box">
@@ -79,13 +79,13 @@
 		<div class="tagline">Best white sand beach</div>
 	</div>
 
-	<img src="http://2.bp.blogspot.com/-mUnEYKzzjHk/TjD_T4zIAyI/AAAAAAAAASY/K7_hOW6Oel4/s1600/papuma9.jpg"></div>
+	<img class="lazy" src=""data-original="http://2.bp.blogspot.com/-mUnEYKzzjHk/TjD_T4zIAyI/AAAAAAAAASY/K7_hOW6Oel4/s1600/papuma9.jpg"></div>
 	<div class="box">
 		<div class="last-tag">
 			<h1>Losari, Makassar</h1>
 			<div class="tagline">East Side of Indonesia</div>
 		</div>
-		<img src="http://www.haltthesalt.org.au/images_aerial/wka_073_gulf6.jpg">
+		<img class="lazy" src=""data-original="http://www.haltthesalt.org.au/images_aerial/wka_073_gulf6.jpg">
 	</div>
 </div>
 
