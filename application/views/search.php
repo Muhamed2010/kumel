@@ -1,4 +1,4 @@
-<div>
+<div class="container result">
 <?php foreach($objeks as $objek): ?>
 	<div>
 		<h1><?php echo $objek->post_title?></h1>
