@@ -53,7 +53,7 @@
 	</div>
 
 	<div class="search">
-		<button class="btn btn-success" id="btnSearch" type="submit">Cari Liburanmu!</button>
+		<button class="btn btn-success" id="btnSearch" type="submit">Cari Liburanku!</button>
 	</div>
 </form>
 </div>

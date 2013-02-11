@@ -12,8 +12,8 @@
   <link href="<?php echo base_url(); ?>assets/css/common.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/home.css" rel="stylesheet">
 
-  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/Aristo/Aristo.css" />
 	
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>

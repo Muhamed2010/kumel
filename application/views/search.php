@@ -4,7 +4,10 @@
 		<div class="boox">
 			<div class="right-block">
 				<img src="http://www.photoshelter.com/img-get/I0000qlJ1FH_YGsw/s/590/392/North-Maluku-104.jpg">
-				<div><?php echo $objek->post_excerpt?></div>
+				<div class="banner">
+				<div class="tag-title"><?php echo $objek->post_title?></div>
+				<div class="tag-location"> City Location, Country Location</div>
+				</div>
 				<div><?php echo $objek->total_day?></div>
 			</div>
 		</div>
