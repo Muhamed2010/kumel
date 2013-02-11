@@ -261,7 +261,7 @@ button.cupid-green {
 	margin-bottom: 30px;
 	border: 1px solid #ddd;
 	width: 338px;
-	height: 300px;
+	height: 286px;
 	float: left;
 	background: #fff;
 	margin-left: 0;
@@ -272,20 +272,29 @@ button.cupid-green {
 
 
 	.image-cover{
-		width: 338px;
+
+		margin: 5px;
+		width: 328px;
+		height: 200px;
+		background: #ccc;
+		.rounded-corners(4px);
+
+	}
+
+	.price{
+		position: absolute;
+		z-index: 10px;
+		width: 328px;
 		height: 200px;
 		background: #ccc;
 
 	}
+
 	img{
 		opacity: 0.9;
-		-webkit-border-top-left-radius: 4px;
-		-webkit-border-top-right-radius: 4px;
-		-moz-border-radius-topleft: 4px;
-		-moz-border-radius-topright: 4px;
-		border-top-left-radius: 4px;
-		border-top-right-radius: 4px;
-		width: 338px;
+	.rounded-corners(4px);
+		width: 328px;
+
 		height: 200px;
 		background: #ccc;
 		border-bottom: 1px solid #ccc;
@@ -311,32 +320,47 @@ button.cupid-green {
 		display: block;
 		background: #fff;
 		padding: 10px 0;
-		height: 35px;
+		height: 15px;
 		overflow: hidden;
 		display: block;
 		border-bottom: 1px solid #ccc;
- -moz-box-shadow:    inset 0 0 10px #efefef;
-   -webkit-box-shadow: inset 0 0 10px #efefef;
-   box-shadow:         inset 0 0 10px #efefef;
+		//-moz-box-shadow:    inset 0 0 10px #3a5900;
+		//-webkit-box-shadow: inset 0 0 10px #3a5900;
+		//box-shadow:         inset 0 0 10px #3a5900;
 		overflow: hidden;
 		float: left;
 		width: 100%;
 		.tag-title{
 			margin-top: -10px;
 			width: 90%;
-			max-height:44px;
+			max-height:15px;
 			overflow: hidden;
 			float: left;
 			margin-left:0px;
 			padding: 5px;
 			font-weight: bold;
-			color: #333333;
+			color: #222;
 			line-height: 18px;
 			font-family: "Open Sans";
 			font-size: 15px;			
 		}
+
+
+	}
+	.bottom-banner{
+		width: 328px;
+		padding: 5px;
+		float: left;
+		height: 30px;
+		-webkit-border-bottom-right-radius: 4px;
+		-webkit-border-bottom-left-radius: 4px;
+		-moz-border-radius-bottomright: 4px;
+		-moz-border-radius-bottomleft: 4px;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+		background: #efefef;
 		.tag-location{
-			width: 100%;
+			max-width:250px;
 			float: left;
 			overflow: hidden;
 			margin-top: 3px;
@@ -344,17 +368,15 @@ button.cupid-green {
 			font-size: 14px;
 			color: #666;		
 		}
-
 	}
 }
 .boox:hover{
 	cursor: pointer;
-	border: 1px solid #ccc;
+	border: 1px solid #009b00;
 	img{
 		opacity: 1;
 	}
 	.tag-title{
-		color: #4E8506;
 	}
 
 }
