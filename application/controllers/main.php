@@ -17,7 +17,4 @@ class Main extends MY_Controller
 		$this->load->model('Activiti','act');
 		echo json_encode($this->act->getAct($this->input->get('q')));
 	}
-	public function search(){
-		
-	}
 }

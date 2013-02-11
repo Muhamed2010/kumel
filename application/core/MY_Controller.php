@@ -9,6 +9,7 @@ class MY_Controller extends CI_Controller
 			$this->dataLayout = array_merge($this->dataLayout,$data['dataLayout']);
 		}
 		$this->dataLayout['content'] = $this->load->view($view,$this->dataLayout,true);
+		
 		$this->load->view($layout,$this->dataLayout);
 	}
 }

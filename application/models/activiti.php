@@ -5,7 +5,7 @@ class Activiti extends CI_Model{
 		$ret = array();
 		foreach($q->result() as $row){
 			$ret[] = array(
-				'id'=>$row->name,
+				'id'=>$row->term_id,
 				'label'=>$row->name
 			);
 		}

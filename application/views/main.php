@@ -9,8 +9,11 @@
 					data: { "q": request.term },
 					success: function(data) { 
 						response(data); 
-					}
+					},
 				});
+			},
+			select: function (event, ui) {
+				$("#cityid").val(ui.item.id); // display the selected text
 			},
 			minLength: 2,
 		});
@@ -23,6 +26,9 @@
 						response(data); 
 					}
 				});
+			},
+			select: function (event, ui) {
+				$("#actid").val(ui.item.id); // display the selected text
 			},
 			minLength: 2,
 		});
@@ -38,10 +44,12 @@
 <div class="searchbox-landing" id="search">
 <form action="<?php echo base_url() ?>index.php/search" method="GET">
 	<div class="activity"> 
-		<input type="text" id="city" placeholder="Anda ingin liburan ke... bandung? jakarta?" name="city" >
+		<input type="text" id="city" placeholder="Anda ingin liburan ke... bandung? jakarta?" >
+		<input type="hidden" name="city" id="cityid"/>
 	</div>
 	<div class="place"> 
-		<input type="text" id="act" placeholder="Anda ingin Hiking? Tracking? Rafting? Belanja?" name="act" >
+		<input type="text" id="act" placeholder="Anda ingin Hiking? Tracking? Rafting? Belanja?">
+		<input type="hidden" name="act" id="actid"/>
 	</div>
 
 	<div class="search">
