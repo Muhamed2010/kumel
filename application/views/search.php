@@ -1,5 +1,5 @@
 <div class="container result">
-	<div class="result-main">
+	<div class="result-list">
 		<?php foreach($objeks as $objek): ?>
 		<div >
 			<h1><?php echo $objek->post_title?></h1>
