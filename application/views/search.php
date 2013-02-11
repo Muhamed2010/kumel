@@ -8,9 +8,9 @@
 				</div>
 				<div class="banner">
 				<div class="tag-title"><?php echo $objek->post_title?></div>
-				<div class="tag-location"> City Location, Country Location</div>
-				</div>
 				
+				</div>
+				<div class="tag-location"> City Location, Country Location</div>
 			</div>
 		</div>
 	<?php endforeach; ?>
