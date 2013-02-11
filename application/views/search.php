@@ -4,6 +4,7 @@
 		<div >
 			<h1><?php echo $objek->post_title?></h1>
 			<div><?php echo $objek->post_content?></div>
+			<div><?php echo $objek->total_day?></div>
 		</div>
 	<?php endforeach; ?>
 </div>
