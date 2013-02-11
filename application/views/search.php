@@ -8,7 +8,7 @@
 				<div class="tag-title"><?php echo $objek->post_title?></div>
 				<div class="tag-location"> City Location, Country Location</div>
 				</div>
-				<div><?php echo $objek->total_day?></div>
+				
 			</div>
 		</div>
 	<?php endforeach; ?>
