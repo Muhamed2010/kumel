@@ -4,65 +4,24 @@ $(document).ready(function() {
 
  var $container = $('.result');
 
-$container.imagesLoaded( function(){
+ $container.imagesLoaded( function(){
   $container.masonry({
     itemSelector : '.boox',
-  isAnimated: true
+    isAnimated: true
   });
 });
  var $containers = $('.deals');
 
-$containers.imagesLoaded( function(){
+ $containers.imagesLoaded( function(){
   $containers.masonry({
     itemSelector : '.boox',
-  isAnimated: true
+    isAnimated: true
   });
 });
-$("img.lazy").lazyload({
+ $("img.lazy").lazyload({
    effect : "fadeIn"
+ });
 });
-});
 
 
-///////////////--------------------------------------------->drop down
 
-function DropDown(el) {
-  this.dd = el;
-  this.placeholder = this.dd.children('span');
-  this.opts = this.dd.find('ul.dropdown > li');
-  this.val = '';
-  this.index = -1;
-  this.initEvents();
-}
-DropDown.prototype = {
-  initEvents : function() {
-    var obj = this;
-
-    obj.dd.on('click', function(event){
-      $(this).toggleClass('active');
-
-      return false;
-    });
-
-    obj.opts.on('click',function(){
-      var opt = $(this);
-      obj.val = opt.text();
-      obj.index = opt.index();
-      obj.placeholder.text(obj.val); 
-    });
-  },
-  getValue : function() {
-    return this.val;
-  },
-  getIndex : function() {
-    return this.index;
-  }
-}
-
-
-var dd = new DropDown( $('#dd') );
-
-$(document).click(function() {
-          // all dropdowns
-          $('.wrapper-dropdown-3').removeClass('active');
-        });
