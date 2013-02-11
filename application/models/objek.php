@@ -5,7 +5,7 @@ class Objek extends CI_Model{
 			$this->db->where("id_location",$city);
 		}
 		if($act!=''){
-			$this->db->where("FIND_IN_SET('$act',term_id) != ",0);
+			$this->db->where("FIND_IN_SET('$act',terms_id) != ",0);
 		}
 		$query  = $this->db->get("tripify_posts");
 		return $query->result();
