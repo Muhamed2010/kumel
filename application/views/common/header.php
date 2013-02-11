@@ -40,7 +40,7 @@
       <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="menu">
           <div class="container">
-            <div class="logo"><img src="<?php echo base_url(); ?>assets/img/logo.png"></div>
+            <div class="logo"><a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/logo.png" width="149px" height="30px"></a></div>
             <div class="nav-collapse collapse">
               <ul class="nav">
                 <li class="active"><a href="#">Home</a></li>
