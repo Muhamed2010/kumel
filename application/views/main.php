@@ -1,5 +1,5 @@
 
-    <div class="container landing">
+<div class="container landing">
 <script>
 	$(function() {
 		$( "#city" ).autocomplete({
