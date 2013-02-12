@@ -21,6 +21,7 @@ $(document).ready(function() {
  $("img.lazy").lazyload({
    effect : "fadeIn"
  });
+ $.cookie('cookie_name', 'cookie_value', { expires: 8, path: '/', domain: 'tripify.me', secure: true });
 });
 
 
