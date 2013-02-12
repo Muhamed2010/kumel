@@ -31,7 +31,18 @@
 			},
 			minLength: 2,
 		});
-		
+		$( "#slider-range" ).slider({
+			range: true,
+			min: 0,
+			max: 500,
+			values: [ 75, 300 ],
+			slide: function( event, ui ) {
+				$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			}
+		});
+		$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+			" - $" + $( "#slider-range" ).slider( "values", 1 ) );
+
 	});
 	</script>
 	<div class="searchbox-detail" id="search">
@@ -87,4 +98,16 @@
 		</div>
 	<?php endforeach; }?>
 
+
+</div>
+<div class="pagination pagination-centered">
+  <ul>
+    <li class="disabled"><a href="#">&laquo;</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li class=""><a href="#">1</a></li>
+    <li class=""><a href="#">2</a></li>
+    <li class=""><a href="#">3</a></li>
+    <li class=""><a href="#">4</a></li>
+    <li class="disabled"><a href="#">&raquo;</a></li>
+  </ul>
 </div>
