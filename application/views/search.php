@@ -1,5 +1,14 @@
+
 <div class="container result">
-	
+
+	<?php  if(count($objeks)==0){
+
+		echo "Kosong";
+	}
+
+	else{
+	?>
+
 	<?php foreach($objeks as $objek): ?>
 	<div class="boox">
 
@@ -18,6 +27,6 @@
 			</div>
 		</div>
 	</div>
-<?php endforeach; ?>
+<?php endforeach; }?>
 
 </div>
