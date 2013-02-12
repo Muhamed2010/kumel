@@ -1,6 +1,5 @@
 
 <div class="container result">
-
 	<?php  if(count($objeks)==0){
 
 		echo "Kosong";
