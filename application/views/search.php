@@ -26,7 +26,7 @@
 				</a>
 			</div>
 			<div class="bottom-banner">
-				<div class="tag-location"> City Location, Country Location</div>
+				<div class="tag-location"><?php echo $objek->kota; ?></div>
 			</div>
 		</div>
 	</div>
