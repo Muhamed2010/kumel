@@ -63,7 +63,7 @@
 	</div>
 </div>
 <div class="container result-heads">
-	<div class="result-getter"> Showing 1 - 30 of 1869 listings</div>
+	<div class="result-getter"> Showing 1 - 30 of 1869  Hasil Pencarian</div>
 </div>
 <div class="container result">
 
