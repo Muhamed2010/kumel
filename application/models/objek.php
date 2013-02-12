@@ -10,4 +10,9 @@ class Objek extends CI_Model{
 		$query  = $this->db->get("tripify_posts");
 		return $query->result();
 	}
+	public function getById($id){
+		$this->db->where("ID",$id);
+		$query  = $this->db->get("tripify_posts");
+		return $query->row();
+	}
 }

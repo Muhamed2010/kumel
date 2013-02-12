@@ -14,7 +14,12 @@ class Search extends MY_Controller
     }
 	private function load($data){
 		$this->render('common/header');
-        $this->render('search',array('dataLayout'=>$data));
+		if(count($data['objeks'])==0){
+			$this->render('searchnol',array('dataLayout'=>$data));
+		}
+		else
+			$this->render('search',array('dataLayout'=>$data));
+			
         $this->render('common/footer');
 	}
 }
