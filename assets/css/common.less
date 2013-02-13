@@ -416,11 +416,11 @@ button.cupid-green {
 		background: #fff;
 		margin-bottom: 10px;
 		.top-artisan{
-				width: 100%;
-				h1{
-					font-size: 28px;
-				}
+			width: 100%;
+			h1{
+				font-size: 28px;
 			}
+		}
 		.trip-info{
 			width: 100%;
 			float: left;
@@ -460,10 +460,49 @@ button.cupid-green {
 
 
 	}
+	.detail-content-bottom{
+		width: 770px;
+		float: left;
+		margin-bottom: 10px;
+		.tab-content{
+			margin-top: -20px;
+
+
+		}
+		.tab-pane{
+			background: #fff;
+			border: 1px solid #ccc;
+			border-top: 0;
+			padding: 10px;
+			margin-top: 0;
+			p{
+				line-height: 18px;
+				font: 'Open Sans';
+			}
+		}
+	}
 }
 .left-menu{
 	overflow: hidden;
 	float: right;
+}
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+	.rounded-corners(0px);
+	color: #555555;
+	font-weight: bold;
+	cursor: default;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	border-bottom-color: transparent;
+}
+.nav-tabs >li>a,.nav-tabs >li>a:hover{
+	.rounded-corners(0px);
+	background: #efefef;
+	font-weight: bold;
+	color: #555;
+	border: 1px solid #ddd;
 }
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
 	background-color: #4E8506;

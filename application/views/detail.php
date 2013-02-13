@@ -12,10 +12,20 @@
 		</div>
 		<div class="image-slider"></div>
 	</div>
-	<div class="detail-content">
-		<p><?php echo  $objek->content_1; ?><p>
-		<p><?php echo  $objek->content_2; ?><p>
-		<p><?php echo  $objek->content_3; ?><p>
+
+	<div class="detail-content-bottom">
+		<ul class="nav nav-tabs" id="myTab">
+			<li class="active"><a href="#home">Rincian Perjalanan</a></li>
+			<li><a href="#profile">Itenerary</a></li>
+			<li><a href="#messages">Rincian harga</a></li>
+		
+		</ul>
+		<div class="tab-content">
+  <div class="tab-pane active" id="home"><p><?php echo  $objek->content_1; ?></p></div>
+  <div class="tab-pane" id="profile"><p><?php echo  $objek->content_2; ?></p></div>
+  <div class="tab-pane" id="messages"><p><?php echo  $objek->content_3; ?></p></div>
+  
+</div>
 	</div>
 
 

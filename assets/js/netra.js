@@ -34,6 +34,11 @@ $( "#slider-range" ).slider({
 		});
 		$( "#price-filter" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
 			" - $" + $( "#slider-range" ).slider( "values", 1 ) );
+
+		 $('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
 });
 
 
