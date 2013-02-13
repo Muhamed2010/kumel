@@ -31,17 +31,6 @@
 			},
 			minLength: 2,
 		});
-		$( "#slider-range" ).slider({
-			range: true,
-			min: 0,
-			max: 500,
-			values: [ 75, 300 ],
-			slide: function( event, ui ) {
-				$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-			}
-		});
-		$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-			" - $" + $( "#slider-range" ).slider( "values", 1 ) );
 
 	});
 	</script>
@@ -65,9 +54,17 @@
 <div class="container result-heads">
 	<div class="result-getter"> Showing 1 - 30 of 1869  Hasil Pencarian</div>
 </div>
+<!---
 <div class="container result-filter">
 	<div class="text">Filter Hasil</div>
+	<div class="price-slider">
+			<input type="text" id="price-filter" style="border: 0; color: #f6931f; font-weight: bold;"  readonly/>
+			<div id="slider-range"></div>
+		<div class="price-text"> Harga</div>
+	</div>
+
 </div>
+-->
 <div class="container result">
 
 	<?php  if(count($objeks)==0){
@@ -104,13 +101,13 @@
 
 </div>
 <div class="pagination pagination-centered">
-  <ul>
-    <li class="disabled"><a href="#">&laquo;</a></li>
-    <li class="active"><a href="#">1</a></li>
-    <li class=""><a href="#">1</a></li>
-    <li class=""><a href="#">2</a></li>
-    <li class=""><a href="#">3</a></li>
-    <li class=""><a href="#">4</a></li>
-    <li class="disabled"><a href="#">&raquo;</a></li>
-  </ul>
+	<ul>
+		<li class="disabled"><a href="#">&laquo;</a></li>
+		<li class="active"><a href="#">1</a></li>
+		<li class=""><a href="#">1</a></li>
+		<li class=""><a href="#">2</a></li>
+		<li class=""><a href="#">3</a></li>
+		<li class=""><a href="#">4</a></li>
+		<li class="disabled"><a href="#">&raquo;</a></li>
+	</ul>
 </div>
