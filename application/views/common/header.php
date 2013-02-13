@@ -8,17 +8,17 @@
   <meta name="author" content="">
 
   <!-- Le styles -->
-<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/common.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/home.css" rel="stylesheet">
 
   
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/Aristo/Aristo.css" />
-	
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
- <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/netra.js"></script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/netra.js"></script>
   
   <!--<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>-->
   <!--<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>-->
@@ -45,6 +45,19 @@
               <ul class="nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">Hot Deals</a></li>
+                <li><a href="#">Login/Sign Up</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hello Latief <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
