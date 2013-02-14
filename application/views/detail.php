@@ -4,7 +4,7 @@
 		<div class="aside-content">
 			<div class="price-area">
 				
-					<h2 class="price">Rp 560.000</h2>
+					<h2 class="price">Rp <?php echo  $objek->price;?></h2>
 					<div class="top-label">Jumlah Traveller</div>
 					<div class="form-input"><input type="text" id="tanggal"  class="input-xlarge"></div>
 					<div class="top-label">Tanggal Berangkat</div>
