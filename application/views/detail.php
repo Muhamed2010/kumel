@@ -10,7 +10,7 @@
 				<div class="top-label">Tanggal Berangkat</div>
 				<div class="form-input"><input type="text" class="input-large" id="order-date"></div>
 			</div>
-			<button class="btn btn-large btn-block btn-primary" type="button">Pemesanan Cepat</button>
+			<button class="orange-button" type="button">Pemesanan Cepat</button>
 		</div>
 		<div class="aside-content">
 			<div class="price-area">
@@ -20,7 +20,7 @@
 				<div class="provider-name"> Vanbungkring</div>
 				<div class="provider-location">Jakarta, Indonesia</div>
 			</div>
-			<button class="btn btn-large btn-block btn-primary" type="button">Pemesanan Cepat</button>
+			<button class="green-button" type="button"> Hubungi Vanbungkring</button>
 		</div>
 		<div class="aside-other-trip">
 			<div class="header-vans"> Vanbungkring's Other Trip</div>
