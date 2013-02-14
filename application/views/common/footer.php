@@ -9,6 +9,7 @@
     ================================================== -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/noUiSlider/2.5.5/jquery.nouislider.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/netra.js"></script>
+     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/sticky.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.07/jquery.masonry.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js"></script>
