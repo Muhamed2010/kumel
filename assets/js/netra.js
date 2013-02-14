@@ -24,7 +24,7 @@ $(document).ready(function() {
 	$.cookie('cookie_name', 'cookie_value', { expires: 8, path: '/', domain: 'tripify.me', secure: true });
 
     $( "#order-date" ).datepicker({
-    	minDate:new Date();
+    	minDate:new Date()
 
     });
 
