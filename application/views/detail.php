@@ -1,7 +1,7 @@
 
 <div class="container detail">
 	<div class="detail-aside">
-		<div class="fast-book">
+		<div class="aside-content">
 			<div class="price-area">
 				
 					<h2 class="price">Rp 560.000</h2>
@@ -12,6 +12,19 @@
 			</div>
 			<button class="btn btn-large btn-block btn-primary" type="button">Pemesanan Cepat</button>
 		</div>
+		<!---
+		<div class="aside-content">
+			<div class="price-area">
+				
+					<h2 class="price">Rp 560.000</h2>
+					<div class="top-label">Jumlah Traveller</div>
+					<div class="form-input"><input type="text" id="tanggal"  class="input-xlarge"></div>
+					<div class="top-label">Tanggal Berangkat</div>
+					<div class="form-input"><input type="text" class="input-xlarge" id="order-date"></div>
+			</div>
+			<button class="btn btn-large btn-block btn-primary" type="button">Pemesanan Cepat</button>
+		</div>
+		---->
 	</div>
 	<div class="detail-content">
 
