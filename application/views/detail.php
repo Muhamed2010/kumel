@@ -6,25 +6,22 @@
 				
 					<h2 class="price">Rp <?php echo number_format($objek->price, 2, ',', '.'); ?></h2>
 					<div class="top-label">Jumlah Traveller</div>
-					<div class="form-input"><input type="text" id="tanggal"  class="input-xlarge"></div>
+					<div class="form-input"><input type="text" id="tanggal"  class="input-large"></div>
 					<div class="top-label">Tanggal Berangkat</div>
-					<div class="form-input"><input type="text" class="input-xlarge" id="order-date"></div>
+					<div class="form-input"><input type="text" class="input-large" id="order-date"></div>
 			</div>
 			<button class="btn btn-large btn-block btn-primary" type="button">Pemesanan Cepat</button>
 		</div>
-		<!---
-		<div class="aside-content">
+			<div class="aside-content">
 			<div class="price-area">
-				
-					<h2 class="price">Rp 560.000</h2>
-					<div class="top-label">Jumlah Traveller</div>
-					<div class="form-input"><input type="text" id="tanggal"  class="input-xlarge"></div>
-					<div class="top-label">Tanggal Berangkat</div>
-					<div class="form-input"><input type="text" class="input-xlarge" id="order-date"></div>
+				<div class="profile-picture">
+				<img  src="http://media-cache-ec1.pinterest.com/avatars/vanbungkring_1331655668_600.jpg">
+				</div>
+				<div class="provider-name"> Vanbungkring</div>
+				<div class="provider-location">Jakarta, Indonesia</div>
 			</div>
 			<button class="btn btn-large btn-block btn-primary" type="button">Pemesanan Cepat</button>
 		</div>
-		---->
 	</div>
 	<div class="detail-content">
 
