@@ -6,7 +6,7 @@
 				
 					<h2 class="price">Rp <?php echo number_format($objek->price, 2, ',', '.'); ?></h2>
 					<div class="top-label">Jumlah Traveller</div>
-					<div class="form-input"><input type="text" id="tanggal"  class="input-large"></div>
+					<div class="form-input"><input type="text" id="tanggal"  class="input-small"></div>
 					<div class="top-label">Tanggal Berangkat</div>
 					<div class="form-input"><input type="text" class="input-large" id="order-date"></div>
 			</div>
@@ -22,6 +22,9 @@
 			</div>
 			<button class="btn btn-large btn-block btn-primary" type="button">Pemesanan Cepat</button>
 		</div>
+			<div class="aside-content">
+			
+			</div>
 	</div>
 	<div class="detail-content">
 
