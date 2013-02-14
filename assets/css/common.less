@@ -257,17 +257,18 @@ button.cupid-green {
 		min-height: 45px;
 		padding: 5px;
 		background-color: #EEEEEE;
-		box-shadow: 1px 1px 0 #FFFFFF inset, -1px -1px 0 #FFFFFF inset, 0 1px 1px #EEEEEE;
-		background-image: -moz-linear-gradient(center top , #FEFEFE 10%, #F0F0F0 90%);
-		/* Safari 4-5, Chrome 1-9 */
-		background-image: -webkit-gradient(linear, 0% 10%, 0% 90%, from(#FEFEFE), to(#F0F0F0));
-		/* Safari 5.1, Chrome 10+ */
-		background-image: -webkit-linear-gradient(center top , #FEFEFE 10%, #F0F0F0 90%); 
-		/* Firefox 3.6+ */
-		/* IE 10 */ 
-		background-image: -ms-linear-gradient(top, #2F2727, #1a82f7);
-		/* Opera 11.10+ */ 
-		background-image: -o-linear-gradient(top, #2F2727, #1a82f7);
+		 background-image: -moz-linear-gradient(center top , #FEFEFE 10%, #F0F0F0 90%);
+    /* Safari 4-5, Chrome 1-9 */
+    background-image: -webkit-gradient(linear, 0% 10%, 0% 90%, from(#FEFEFE), to(#F0F0F0));
+    /* Safari 5.1, Chrome 10+ */
+    background-image: -webkit-linear-gradient(center top , #FEFEFE 10%, #F0F0F0 90%); 
+    /* Firefox 3.6+ */
+    /* IE 10 */ 
+    background-image: -ms-linear-gradient(top, #FEFEFE, #F0F0F0);
+    /* Opera 11.10+ */ 
+    background-image: -o-linear-gradient(top, #FEFEFE, #F0F0F0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FEFEFE', EndColorStr='#F0F0F0');
+     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FEFEFE', EndColorStr='#F0F0F0')";
 
 		.rounded-corners(3px);
 		.place{
