@@ -46,12 +46,17 @@
 
 		</ul>
 		<div class="tab-content">
-			<div class="tab-pane active" id="home"><p><?php echo  $objek->content_1; ?></p></div>
+			<div class="tab-pane active" id="home">
+				<p><?php echo  $objek->content_1; ?></p>
+
+			</div>
 			<div class="tab-pane" id="profile"><p><?php echo  $objek->content_2; ?></p></div>
 			<div class="tab-pane" id="messages"><p><?php echo  $objek->content_3; ?></p></div>
 
 		</div>
 	</div>
-
+	<div class="detail-content">
+		<h3>Testimonials</h3>
+	</div>
 
 </div>
