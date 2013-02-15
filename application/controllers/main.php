@@ -8,8 +8,10 @@ class Main extends MY_Controller
         $this->render('common/footer');
     }
 	
-	public function login(){
-		
+	public function logout(){
+		$this->facebook->destroySession();
+		$this->session->sess_destroy();
+		redirect('main');
 	}
 	
     public function kota(){
