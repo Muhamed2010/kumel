@@ -7,6 +7,13 @@ class Main extends MY_Controller
         $this->render('main');
         $this->render('common/footer');
     }
+	
+	public function logout(){
+		$this->facebook->destroySession();
+		$this->session->sess_destroy();
+		redirect('main');
+	}
+	
     public function kota(){
 		header("Content-Type:application/json");
 		$this->load->model('Kota','kota');

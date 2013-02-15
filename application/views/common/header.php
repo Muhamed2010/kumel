@@ -45,19 +45,17 @@
               <ul class="nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">Hot Deals</a></li>
-                <li><a href="#">Login/Sign Up</a></li>
+				<?php if(!$_user): ?>
+				
+                <li><a href="<?php echo $_data_user['login_url']; ?>">Login/Sign Up</a></li>
+				<?php elseif($_user): ?>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hello Latief <b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hello <?php echo $_data_user['user_profile']['first_name']; ?><b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="nav-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li><a href="<?php echo site_url('main/logout'); ?>">Logout</a></li>
                   </ul>
                 </li>
+				<?php endif; ?>
               </ul>
             </div>
           </div>
