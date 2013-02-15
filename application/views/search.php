@@ -46,7 +46,7 @@
 			</div>
 
 			<div class="search">
-				<button class="btn btn-success" id="btnSearch" type="submit">Cari Liburanku!</button>
+				<button class="orange-button" id="btnSearch" type="submit">Cari Liburan</button>
 			</div>
 		</form>
 	</div>
